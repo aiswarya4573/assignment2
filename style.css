@@ -66,11 +66,64 @@
 .body-img-writings{
     width: 300px;
     color: white;
-    margin-left: 125px;
+    margin-left: 195px;
     padding-top: 130px;
 }
     
 .body-img-writings h1{
     font-weight: bolder;
     font-size: 55px;
+}
+.content-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+}
+.box-1{
+    padding:100px 40px;
+    border-radius: 5px;
+}
+#second{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.box-1 h3{
+    text-align: left;
+    margin-top: 10px;
+
+}
+@media(max-width:900px){
+    .lower-nav{
+        flex-direction: row;
+        gap:5px
+    }
+    .lower-nav li{
+        font-size: 12px;
+
+    }
+    .cart-container{
+        padding: 3px 6px;
+    }
+    .body-img-writings h1{
+        font-size: 24px;
+    }
+    .body-img-writings{
+        margin-left: 90px;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    
 }
