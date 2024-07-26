@@ -84,7 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 7rem;
     border: none;
 }
 .box-1{
@@ -132,6 +132,46 @@
     position: absolute;
     bottom: 50px;
 }
+.column-container{
+    display: flex;
+}
+.inner{
+    position: absolute; 
+    z-index: 3; 
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+.second-column{
+    padding-top: 30px;
+
+}
+.first-column{
+    padding-top: 30px;
+    
+}
+.third-column{
+    padding-top: 30px;
+    
+}
+.second-image-container{
+    margin-top: 390px;
+    background-image: url(acme-website-homepage-assets/second-section.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+.second-image-content{
+    text-align: right;
+    width: 409px;
+    margin-left: 850px;
+    padding-top: 260px;
+    color: white;
+}
 @media(max-width:900px){
     .lower-nav{
         flex-direction: row;
@@ -158,4 +198,9 @@
         width: auto;
     }
     
+    
+   
 }
+        
+    
+
