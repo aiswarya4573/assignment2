@@ -92,13 +92,45 @@
     border-radius: 5px;
 }
 #second{
-    padding-left: 90px;
+    padding-left: 85px;
     padding-right: 90px;
+    position: relative;
+    z-index: 2;
 }
 .box-1 h3{
     text-align: left;
     margin-top: 10px;
 
+}
+.inner-box{
+    position: relative;
+}
+.box-circle{
+    position: absolute;
+    border-bottom: 0px;
+    z-index: 1;
+}
+.box-circle-container{
+    position: absolute;
+    right: 40px;
+}
+.box-triangle-container{
+    position: absolute;
+    right: 40px;
+    z-index: 1;
+}
+.box-1{
+    position: relative;
+    z-index: 2;
+}
+.number-two{
+    position: absolute;
+    right:100px;
+    bottom: 50px;
+}
+.number{
+    position: absolute;
+    bottom: 50px;
 }
 @media(max-width:900px){
     .lower-nav{
