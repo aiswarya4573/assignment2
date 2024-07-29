@@ -324,6 +324,18 @@
  
    
 }
+@media(min-width:700px){
+    .fifth-section-img{
+        position: absolute;
+        left: 390px;
+    }
+}
+@media(min-width:1000px){
+    .fifth-section-img{
+        position: absolute;
+        left: 260px;
+    }
+}
         
     
 
