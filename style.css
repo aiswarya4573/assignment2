@@ -181,6 +181,7 @@
 .image{
     height: 400px;
     width: 370px;
+    border-radius: 5px;
 }
 .photos-container{
     display: flex;
